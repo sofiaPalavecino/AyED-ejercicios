@@ -1,3 +1,7 @@
+/*. Desarrollar una función tal que dado un número entero positivo
+calcule y retorne su factorial.
+En factorial del N es el resultado de multiplicar 1x2x3x....xN*/
+
 #include <iostream>
 #include <ostream>
 using namespace std;

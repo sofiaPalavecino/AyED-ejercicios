@@ -1,3 +1,9 @@
+/*Dada una serie de números enteros, informar:
+a) su factorial
+b) cuántos múltiplos de 3
+c) cuántos múltiplos de 5
+d) cuántos múltiplos de 3 y de 5*/
+
 #include <iostream>
 #include <ostream>
 #include <string>

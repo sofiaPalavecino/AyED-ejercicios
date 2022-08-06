@@ -1,3 +1,7 @@
+/*Desarrollar una función que reciba dos valores
+que representan un número y una potencia
+y retorne el número elevado a esa potencia.*/
+
 #include <iostream>
 #include <ostream>
 using namespace std;
