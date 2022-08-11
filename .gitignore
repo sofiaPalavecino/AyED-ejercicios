@@ -33,3 +33,7 @@ a
 *.app
 
 .vscode
+
+obtenerDiaMesAnio.cpp
+conviertefechas.cpp
+diferenciadefechas.cpp
