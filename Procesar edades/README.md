@@ -10,11 +10,11 @@ Supongan que no hay dos personas que hayan nacido el mismo día.
 
 **Pista 1:** para conocer la edad en años de cada estudiante pueden usar la siguiente función (buscar el programa en los ejemplos publicados)
 
-**int diferenciaFechas(int dia1, int mes1, int anio1, int dia2, int mes2, int anio2) {**
-   **int dif;**
-   **dif = int((((anio1-anio2)*12+(mes1-mes2))*30+dia1-dia2)/360);**
-   **return dif;**
-**}**
+int diferenciaFechas(int dia1, int mes1, int anio1, int dia2, int mes2, int anio2) {
+   int dif;
+   dif = int((((anio1-anio2)*12+(mes1-mes2))*30+dia1-dia2)/360);
+   return dif;
+}
 
 Recibe 2 fechas y devuelve la cantidad de días entre ambas considerando que todos los meses tienen 30 días (es lo más que podemos hacer ahora, prometo que en poco tiempo van a poder mejorar esta función)
 
