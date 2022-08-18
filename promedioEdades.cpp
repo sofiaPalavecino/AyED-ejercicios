@@ -20,7 +20,8 @@ int main(){
     int cantidad = 0;
     inicializarVector(edades);
     pedirEdades(edades, cantidad);
-    cout<<"La cantidad de personas que superan el promedio de edad son: "<<cantPersonasMayoresPromedio(edades,cantidad);
+    cantidad = cantPersonasMayoresPromedio(edades,cantidad);
+    cout<<"La cantidad de personas que superan el promedio de edad son: "<<cantidad;
 }
 
 void inicializarVector(tEdades & edades){
@@ -36,10 +37,8 @@ void pedirEdades(tEdades & edades, int & cantidad){
     for (int i = 0; i < _TOPE_PERSONAS && edad != -1; i++){
         edades[i] = edad;
         cantidad++;
-        while (edades[i] < -1){
-            cout<<"Ingresar edad. -1 para terminar"<<endl;
-            cin>>edad;
-        }
+        cout<<"Ingresar edad. -1 para terminar"<<endl;
+        cin>>edad;
     }
 }
 
