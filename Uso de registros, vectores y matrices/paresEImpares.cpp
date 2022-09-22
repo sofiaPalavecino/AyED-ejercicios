@@ -4,7 +4,6 @@ El número máximo de valores a pedir es 100.*/
 
 #include <iostream>
 #include <ostream>
-#include <string>
 using namespace std;
 
 #define _TOPE_ENTEROS 100

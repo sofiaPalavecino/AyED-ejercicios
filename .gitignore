@@ -37,3 +37,6 @@ procesarEdades
 
 conviertefechas.cpp
 diferenciadefechas.cpp
+estudiantes.csv
+practicaParcial
+*.csv
